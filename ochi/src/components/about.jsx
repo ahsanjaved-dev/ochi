@@ -14,12 +14,12 @@ function About() {
             We believe the mix of strategy and design (with a bit of coffee) is what makes your message clear, convincing, and captivating.</p></div>
             <div className='md:w-[20vw] md:p-20'><p>S:</p><br /><a>Instragram</a><br /><a>Behance</a><br /><a>Facebook</a><br /><a>Linkedin</a></div>
         </div>
-        <div className='border-t-[1px] border-black w-full font-["Neue_Montreal"] md:flex md:pe-10 md:pt-6'>
-            <div className='md:w-1/2 px-6 md:px-12 '>
-                <h1 className='text-[8vw]  md:text-[4vw] mb-3 border-zinc-900'>Our approach:</h1>
+        <div className='border-t-[1px] border-black w-full font-["Neue_Montreal"] lg:flex lg:pe-10 lg:pt-6'>
+            <div className='lg:w-1/2 px-6 lg:px-12 '>
+                <h1 className='text-5xl my-4 lg:text-[4vw] mb-3 border-zinc-900'>Our approach:</h1>
                 <button className='bg-zinc-900 rounded-full px-5 py-3 md:px-8 md:py-4 text-white flex items-center'>READ MORE <div className='w-2 h-2 bg-white rounded-full ms-6'></div> </button>
             </div>
-            <div className='md:w-1/2 md:h-[70vh] p-6 md:p-0  rounded-xl'>
+            <div className='lg:w-1/2 lg:h-[70vh] p-6 lg:p-0  rounded-xl'>
                 <img src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg"  alt="img"  className='rounded-xl md:h-[70vh] w-full'/>
             </div>
         </div>

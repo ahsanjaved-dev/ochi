@@ -22,7 +22,7 @@ function Featured() {
         <div className='p-6 md:p-10'>
             
             <div className='cards w-full md:flex md:gap-6'>
-                <motion.div onHoverStart={()=>handleHover(0)} onHoverEnd={()=>handleHoverEnd(0)} className='cardContainer md:w-1/2 md:h-[80vh] relative cursor-pointer'>
+                <motion.div onHoverStart={()=>handleHover(0)} onHoverEnd={()=>handleHoverEnd(0)} className='cardContainer lg:w-1/2 lg:h-[80vh] relative cursor-pointer'>
                     <div className='pb-4 flex items-center font-["Neue_Montreal"] text-sm '><div className='w-3 h-3 bg-black rounded-full mr-4'></div>FYDE</div>
                     <h1 className='absolute hidden md:flex overflow-hidden left-full top-1/2 -translate-x-1/2 -translate-y-1/2 z-[9] text-[7vw] font-["Neue_Montreal"]  font-bold leading-none text-[#CDEA68]'>
                         {"FYDE".split("").map((items,index)=> <motion.span initial={{y:"100%"}} animate={cards[0]} transition={{ease:[0.5, 1, 0.89, 1],delay:index*.03}} className='inline-block'>{items}</motion.span>)}
@@ -34,7 +34,7 @@ function Featured() {
                     <button className='text-sm mt-3 md:mt-0 px-3 py-1 border-[1.5px] border-black rounded-full'>SLIDES DESIGN</button>
                 </motion.div>
 
-                <motion.div onHoverStart={()=>handleHover(1)} onHoverEnd={()=>handleHoverEnd(1)} className='cardContainer md:w-1/2 md:h-[80vh] relative cursor-pointer'>
+                <motion.div onHoverStart={()=>handleHover(1)} onHoverEnd={()=>handleHoverEnd(1)} className='cardContainer lg:w-1/2 lg:h-[80vh] relative cursor-pointer'>
                     <div className=' mt-8 md:mt-0  pb-4 flex items-center font-["Neue_Montreal"] text-sm'><div className=' w-3 h-3 bg-black rounded-full mr-4'></div>VISE</div>
                     <h1 className='absolute hidden md:flex overflow-hidden right-full top-1/2 translate-x-1/2  -translate-y-1/2 z-[9] text-[7vw] font-["Neue_Montreal"]  font-bold leading-none text-[#CDEA68]'>
                         {"VISE".split("").map((items,index)=> <motion.span initial={{y:"100%"}} animate={cards[1]} transition={{ease:[0.5, 1, 0.89, 1],delay:index*.03}} className='inline-block'>{items}</motion.span>)}
@@ -47,7 +47,7 @@ function Featured() {
             </div>
 
             <div className='cards mt-10 md:mt-32 w-full md:flex md:gap-6'>
-                <motion.div onHoverStart={()=>handleHover(2)} onHoverEnd={()=>handleHoverEnd(2)} className='cardContainer md:w-1/2 md:h-[80vh] relative cursor-pointer'>
+                <motion.div onHoverStart={()=>handleHover(2)} onHoverEnd={()=>handleHoverEnd(2)} className='cardContainer lg:w-1/2 lg:h-[80vh] relative cursor-pointer'>
                         <div className='flex items-center pb-4 font-["Neue_Montreal"] text-sm '><div className='w-3 h-3 bg-black rounded-full mr-4'></div>TRAWA</div>
                         <h1 className='absolute hidden md:flex overflow-hidden left-full top-1/2 -translate-x-1/2 -translate-y-1/2  z-[9] text-[7vw] font-["Neue_Montreal"]  font-bold leading-none text-[#CDEA68]'>
                             {"TRAWA".split("").map((items,index)=> <motion.span initial={{y:"100%"}} animate={cards[2]} transition={{ease:[0.5, 1, 0.89, 1],delay:index*.01}} className='inline-block'>{items}</motion.span>)}
@@ -58,7 +58,7 @@ function Featured() {
                     <button className='text-sm mt-3 px-3 py-1 border-[1.5px] border-black rounded-full mr-3'>INVESTOR DECK</button>
                 
                 </motion.div>
-                <motion.div onHoverStart={()=>handleHover(3)} onHoverEnd={()=>handleHoverEnd(3)} className='cardContainer md:w-1/2 md:h-[80vh] relative cursor-pointer'>
+                <motion.div onHoverStart={()=>handleHover(3)} onHoverEnd={()=>handleHoverEnd(3)} className='cardContainer lg:w-1/2 lg:h-[80vh] relative cursor-pointer'>
                     <div className='flex mt-8 md:mt-0 items-center pb-4 font-["Neue_Montreal"] text-sm '><div className='w-3 h-3 bg-black rounded-full mr-4'></div>PREMIUM BLEND</div>
                     <h1 className='absolute hidden md:flex overflow-hidden right-full top-1/2 translate-x-1/2 -translate-y-1/2  z-[9] text-[7vw] font-["Neue_Montreal"]  font-bold leading-none text-[#CDEA68]'>
                         {"PREMIUMBLEND".split("").map((items,index)=> <motion.span initial={{y:"100%"}} animate={cards[3]} transition={{ease:[0.5, 1, 0.89, 1],delay:index*.01}} className='inline-block'>{items}</motion.span>)}
